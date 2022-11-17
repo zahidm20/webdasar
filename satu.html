@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let dataDiri = {
+            namaDepan: "zahid",
+            namaBelakang: "maulana",
+            hobi: "Olahraga",
+            umur: 15
+        }
+
+        dataDiri.hobi = "mengaji"
+        delete dataDiri.umur
+
+        dataDiri.asalSekolah = "smk madinatulquran"
+
+        document.write(halo nama saya ${ dataDiri.namaDepan } ${ dataDiri.namaBelakang } hobi saya adalah ${ dataDiri.hobi } saya sekarang berusia ${ dataDiri.umur } tahun)
+
+        document.write("<br>")
+        document.write("<br>")
+
+        document.write(`halo nama saya ${ dataDiri.namaDepan` } ${ dataDiri.namaBelakang } hobi saya adalah ${ dataDiri.hobi } saya bersekolah di ${ dataDiri.asalSekolah } tahun)
+
+    </script>
+</body>
+
+</html>

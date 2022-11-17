@@ -1,0 +1,52 @@
+/* rumus membuata kotak haraus aada panjang lebar */
+.kotak{
+    width: 100px;
+    height: 100px;
+    background-color:
+    }
+    .bg-blue{
+        height: 100px;
+        width: 100%;
+        background-color: blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: aliceblue;
+    }
+
+    .bg-yellow{
+        height: 250px;
+        width: 65%;
+        float: left;
+        background-color: orangered;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: aliceblue;
+
+
+    }
+    .bg-red{
+        height: 250px;
+        width: 35%;
+        background-color: greenyellow;
+        float:left; display: flex;
+        align-items: center;
+        justify-content: center;
+        color: aliceblue;
+
+    }
+    .bg-purple{
+        height: 70px;
+        width: 100%;
+        background-color: red;
+        clear: both;
+        float:left; display: flex;
+        align-items: center;
+        justify-content: center;
+        color: aliceblue;
+    }
+
+    /* width=lebar */
+    /* height=tinggi */
+    

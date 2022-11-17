@@ -1,0 +1,17 @@
+penulisan margin & padding 
+.marrgin{
+    /* keseluruhan */
+    margin: 20px;
+    satuan 
+    margin-top: 10px;
+    margin-rigt: 20px;
+    margin-bottom: 30px;
+    marmgin-left: 40px;
+
+    /* arah jarum jam  */
+    margin: 10px 20px 30px 40px;
+    /* atas bawah, kiri kanan */
+    margin: 20px 50px;
+    /* aquto buat ketengah */
+    margin: 10px auto;
+}

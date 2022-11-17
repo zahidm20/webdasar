@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&family=Outfit:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Navbar */
+.nav-bar {
+    background-color: #202020;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    box-shadow: 0px 4px 5px #2a2a2a;
+}
+
+.logo-h {
+    color: #ffffff;
+}
+
+.hw {
+    color: red;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item {
+    color: #e2e2e2;
+    font-weight: bold;
+    margin: 0 30px;
+    padding-bottom: 2px;
+    transition: .2s;
+    border-bottom: 3px solid #046ce200;
+
+}
+
+.nav-item:hover {
+    padding-bottom: 5px;
+    border-bottom: 3px solid #046be2;
+    color: #046be2;
+}
+
+section.home {
+    height: 100vh;
+    background-color: #2a2a2a;
+    padding-top: 56.800;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+section.home div.content h2 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    color: #ffff;
+    font-size: 72px;
+}
+
+section.home div.content p {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: #ffff;
+    font-size: 24px;
+}
+
+section.home div.content span.text {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: #046be2;
+    font-size: 24px;
+}
+
+.instagram {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    padding: 8px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+    transition: .2s;
+}
+
+.instagram:hover {
+    color: #046be2;
+    background-color: white;
+}
+
+div.foto img.home-img {
+    width: 320px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 3px solid white;
+    opacity: 80%;
+    transition: .3s;
+}
+
+div.foto img.home-img:hover {
+    opacity: 100%;
+    padding: 0px;
+}
+
+/* About */
+
+section.about {
+    background-color: #202020;
+    padding: 30px;
+    width: 100%;
+    height: 496.862;
+}
+
+h2.heading {
+    font-family: 'Outfit', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+div.about {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+div.foto {
+    display: flex;
+    align-items: center;
+}
+
+div.foto img {
+    width: 400px;
+    margin-right: 80px;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+div.desk {
+    width: 800px;
+    display: flex;
+    align-items: center;
+}
+
+div.desk p {
+    font-family: 'Noto Sans Mono', monospace;
+    color: white;
+    text-align: justify;
+    font-size: 24px;
+}
+
+a.link-a {
+    color: #046be2;
+    font-family: 'Noto Sans Mono', monospace;
+    transition: .1s;
+}
+
+a.link-a:hover {
+    color: #fff;
+}
+
+/* Skills */
+section.skills {
+    /* height: 600px; */
+    background-color: #2a2a2a;
+    padding: 30px;
+    /* overflow: hidden; */
+}
+
+h2.skill-h {
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    background-color: #202020;
+    width: 300px;
+    height: 350px;
+    padding: 20px 10px 20px 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px;
+}
+
+.skill-img {
+    width: 200px;
+}
+
+h1.name-skill {
+    color: white;
+}
+
+.proses {
+    background-color: #bebebe;
+    width: 200px;
+    height: 20px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.proses-bar-html {
+    background-color: #046be2;
+    width: 75%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 5px;
+}
+
+.proses-bar-js {
+    background-color: #046be2;
+    width: 45%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 5px;
+}
+
+.proses-bar-css {
+    background-color: #001630;
+    width: 65%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 5px;
+}
+
+/* Project */
+#project {
+    background-color: #ffffff;
+    padding: 30px;
+    width: 100%;
+    /* height: 500px; */
+}
+
+#card-p {
+    background-image: url(img/bg.jpg);
+    background-size: 550px;
+    width: 300px;
+    height: 350px;
+    filter: saturate(0.5);
+    transition: 1s;
+}
+
+#card-p:hover {
+    background-size: 850px;
+    filter: saturate(1);
+}
+
+.tx-p {
+    background-color: #202020ab;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(241, 23, 23);
+    font-size: 30px;
+    opacity: 0%;
+    transition: 1s;
+}
+
+.tx-p:hover {
+    font-size: 40px;
+    opacity: 100%;
+}
+
+h2.t-p {
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.flex-p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* footer */
+.footer {
+    width: 100%;
+    background-color: #fa2929;
+}
+
+.footer h1 {
+    text-align: center;
+    font-size: 12px;
+    padding: 3px 0;
+}
+
+.toggle {
+    display: none;
+}
+
+{
+    ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Navbar */
+.nav-bar {
+    background-color: #202020;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    box-shadow: 0px 4px 5px #2a2a2a;
+}
+}

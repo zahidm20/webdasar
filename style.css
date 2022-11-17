@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.home {
+    height: 100vh;
+    width: 100%;
+    background-color: #101010;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+    background-color: #191919;
+    border-bottom: 1px solid red;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: red;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: red 0.5s;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 30px;
+    transition: transform .5s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+    border: 2px solid red;
+    background-color: transparent;
+}
+
+.image {
+    width: 70%;
+    height: 90%;
+    position: obsulute;
+    bottom: 5;
+    right: 40px;
+    transform: rotateY(180deg);
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform: translateX(20%);
+}
+
+.content {
+    position: obsolute;
+    top: 60%;
+    left: 8%;
+    transform: rotatey(-50%);
+}
+
+h4 {
+    color: fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+h1 {
+    color: rgb(212, 11, 11);
+    font-size: 65px;
+    margin: 20px 0 20px;
+}
+
+h3 {}
+
+. ul {
+    color: antiquewhite;
+    font-size: medium;
+    margin: 20px;
+}
